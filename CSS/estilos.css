@@ -32,6 +32,30 @@ body
     font-size: 0.8em;
 }
 
+#cabecera #perfil
+{
+    width: 80px; 
+    vertical-align: middle;
+}
+
+#container #video
+{
+    width: max-content; 
+    vertical-align: middle;
+}
+
+#container #Leia
+{
+    width: 250px; 
+    vertical-align: middle;
+}
+
+#container #moto
+{
+    width: min-content;
+    vertical-align: middle;
+}
+
 #container
 {
     width: 70%;
@@ -49,6 +73,13 @@ body
 {
     background: white;
     padding: 1em;
+}
+
+
+#container #instrumentos
+{
+    width: 300px;
+    vertical-align: middle;
 }
 
 #footer
