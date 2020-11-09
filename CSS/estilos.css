@@ -40,13 +40,13 @@ body
 
 #container #video
 {
-    width: 250px; 
+    width: 150px; 
     vertical-align: middle;
 }
 
 #container #Leia
 {
-    width: 250px; 
+    width: 120px; 
     vertical-align: middle;
 }
 
@@ -78,7 +78,7 @@ body
 
 #container #instrumentos
 {
-    width: 300px;
+    width: 100px;
     vertical-align: middle;
 }
 
