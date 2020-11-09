@@ -38,6 +38,11 @@ body
     vertical-align: middle;
 }
 
+#container #video
+{
+    width: 150px; 
+    vertical-align: middle;
+}
 #container
 {
     width: 70%;
@@ -50,12 +55,6 @@ body
 #container h1
 {
     font-size: 20px;
-}
-
-#container #video
-{
-    width: 150px; 
-    vertical-align: middle;
 }
 
 #container #Leia
