@@ -4,9 +4,9 @@ body
     color: #333;
     text-align: center;
     font-family: Arial;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #cabecera
@@ -32,6 +32,33 @@ body
     font-size: 0.8em;
 }
 
+#cabecera #perfil
+{
+    width: 60px; 
+    vertical-align: middle;
+}
+
+#container #video
+{
+
+    width: 300px; 
+    height: 250px;
+    vertical-align: middle;
+}
+
+#container #Leia
+{
+    width: 250px; 
+    vertical-align: middle;
+}
+
+#container #moto
+{
+    width: 300px; 
+    height: 650px;
+    vertical-align: middle;
+}
+
 #container
 {
     width: 70%;
@@ -45,8 +72,39 @@ body
 {
     font-size: 20px;
 }
+
+#container #Leia
+{
+    width: 120px; 
+    vertical-align: middle;
+}
+
+#container #moto
+{
+    width: min-content;
+    vertical-align: middle;
+}
+
 #post
 {
     background: white;
     padding: 1em;
 }
+
+
+#container #instrumentos
+{
+    width: 100px;
+    vertical-align: middle;
+}
+
+#footer
+{
+    background: #037192;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
