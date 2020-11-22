@@ -2,6 +2,7 @@ body
 {
     background: #1e1f24;
     color: #333;
+    border: solid white;
     text-align: center;
     font-family: Arial;
     font-size: 20px;
@@ -11,28 +12,18 @@ body
 
 #HEADER
 {
-    display: flex;
-    justify-content: center;
-    background: #037192;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    background-color: #037192;
     color: rgb(252, 252, 252);   
 }
 
-#
-
 #post
 {
-    background: white;
-    padding: 1em;
+    background-color: white;
 }
 
 #footer
 {
-    background: #037192;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    background-color: #037192;
     color: rgb(252, 252, 252);
-    font-weight: bold;
-    margin: 0;
-    padding: 0.5em;
 }
 
