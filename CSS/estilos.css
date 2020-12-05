@@ -10,9 +10,35 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   background: #037192;
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  color: rgb(252, 252, 252);
+}
+
+.header_container-items {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_container-items img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.header__navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.header__navbar ul li a {
   color: rgb(252, 252, 252);
 }
 
