@@ -1,58 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Esta página te mostrará mi progreso como Desarrollador web" />
-        <meta name="robots" content="index,follow"/>  
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-          <title>Bienvenido al Hyperblog evolucionante de Alberto</title>           
-          <link rel="stylesheet" href="./CSS/estilos.css"/>
-    </head>
-    <body>
-        <header id="HEADER">
-            <figure>
-                <img src="./imagenes/Pérfil.jpeg" width="10%" alt="Mi foto de perfil"/>
-                  Hyperblog 
-                  <span id="TAGLINE">Mi primer Blog html</span>
-                <img src="./imagenes/pikachu.png" width="12%" />         
-            </figure>
-        </header>
-        <div id="video">
-            <figure>
-                <video controls preload="auto" width="100%" >
-                  <source src="./imagenes/Presentacion.mp4#t=8" />
-                </video>
-            </figure>
-        </div>
-        <div id="post">
-            <h3>Aquí hablaremos sobre mi desarrollo en platzi</h3>
-            <ul>
-                <li>De manera proporcional a mi progreso en la carrera de Desarrollador Web, me enconraré realizando
-                    actualizaciones a esta genial página</li>
-                <li>En este blogpost, el cual espero evolucione en una WebApp, estaré subiendo contenido personal y de mi agrado</li>
-            </ul>
-            <ol>
-                <li>Aqui encontrarás fotos sobre mi hija "Nany"</li>
-                    <figure>
-                      <img src="./imagenes/Nany y yo.jpeg" width="50%" alt="Foto de Nany"/>
-                      <figcaption>Aquí estamos mi hija y yo.</figcaption>
-                    </figure>   
-                <li>Ellá jugando en la moto</li>
-                    <figure id="moto">
-                        <video controls preload="auto" width="50%" >
-                         <source src="./imagenes/moto.mp4"/>
-                        </video>
-                    </figure>  
-                <li> Tambien subire un poco sobre la musica en mi vida</li> 
-                    <figure>
-                       <img src="./imagenes/Instrumentos.jpeg" width="80%" alt="Instrumentos" />
-                       <figcaption>Estos son los instrumentos que tengo</figcaption>
-                    </figure>  
-            </ol>
-            <h1> Las actualizaciones continuaran sin previo aviso, coma frutas y verduras.</h1>
-        </div>
-        <div id="footer">
-            <p>Conoce más de mi en:  <a href="https://www.facebook.com/nava.ozzy.666/" target="_blanck"><img src="./imagenes/FB.png" width="50px"> </a>  
-        </div>    
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Esta página te mostrará mi progreso como Desarrollador web"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenido al Hyperblog evolucionante de Alberto</title>
+    <link rel="stylesheet" href="./CSS/estilos.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_container-items">
+        <img
+          class="header__image-profile"
+          src="./imagenes/Pérfil.jpeg"
+          alt="Mi foto de perfil"
+        />
+
+        <h2>Hyper Blog Mi primer Blog HTML</h2>
+        <img class="header__image-pikachu" src="./imagenes/pikachu.png" />
+      </div>
+      <nav class="header__navbar">
+        <ul>
+          <li><a href="/Blogpost.html"> Acerca de Mi </a></li>
+          <li>
+            <a href="/Blogpost.html">Proyectos</a>
+          </li>
+          <li>
+            <a href="/Blogpost.html"> Contactame </a>
+          </li>
+          <li>
+            <a href="/Blogpost.html"> Crea algo increible! </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="video">
+      <figure>
+        <video controls preload="auto" width="100%">
+          <source src="./imagenes/Presentacion.mp4#t=8" />
+        </video>
+      </figure>
+    </div>
+    <main class="post">
+      <h3>Aquí hablaremos sobre mi desarrollo en platzi</h3>
+      <ul>
+        <li>
+          De manera proporcional a mi progreso en la carrera de Desarrollador
+          Web, me enconraré realizando actualizaciones a esta genial página
+        </li>
+        <li>
+          En este blogpost, el cual espero evolucione en una WebApp, estaré
+          subiendo contenido personal y de mi agrado
+        </li>
+      </ul>
+      <ol>
+        <li>Aqui encontrarás fotos sobre mi hija "Nany"</li>
+        <figure>
+          <img src="./imagenes/Nany y yo.jpeg" width="50%" alt="Foto de Nany" />
+          <figcaption>Aquí estamos mi hija y yo.</figcaption>
+        </figure>
+        <li>Ellá jugando en la moto</li>
+        <figure class="moto">
+          <video controls preload="auto" width="50%">
+            <source src="./imagenes/moto.mp4" />
+          </video>
+        </figure>
+        <li>Tambien subire un poco sobre la musica en mi vida</li>
+        <figure>
+          <img
+            src="./imagenes/Instrumentos.jpeg"
+            width="80%"
+            alt="Instrumentos"
+          />
+          <figcaption>Estos son los instrumentos que tengo</figcaption>
+        </figure>
+      </ol>
+      <h1>
+        Las actualizaciones continuaran sin previo aviso, coma frutas y
+        verduras.
+      </h1>
+    </main>
+    <footer class="footer">
+      <p>Conoce más de mi en:</p>
+      <a href="https://www.facebook.com/nava.ozzy.666/" target="_blanck"
+        ><img src="./imagenes/FB.png" width="50px" />
+      </a>
+    </footer>
+  </body>
 </html>
